@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Utilizador/Desktop/Politecnico/2ano/Crow_cpp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/project_casino.dir/includes_CXX.rsp -std=gnu++11 -o CMakeFiles\\project_casino.dir\\src\\main.cpp.obj -c C:\\Users\\Utilizador\\Desktop\\Politecnico\\2ano\\Crow_cpp\\src\\main.cpp",
+  "file": "C:/Users/Utilizador/Desktop/Politecnico/2ano/Crow_cpp/src/main.cpp",
+  "output": "CMakeFiles/project_casino.dir/src/main.cpp.obj"
+}
+]

@@ -1,0 +1,3 @@
+C:\Users\Utilizador\cmake-3.28.0-rc3-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\project_casino.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\project_casino.dir/objects.a @CMakeFiles\project_casino.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -Wl,--whole-archive CMakeFiles\project_casino.dir/objects.a -Wl,--no-whole-archive -o project_casino.exe -Wl,--out-implib,libproject_casino.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\project_casino.dir\linkLibs.rsp

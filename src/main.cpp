@@ -34,8 +34,6 @@ int main()
         res.end();
     });
 
-
-
     app.port(42069).multithreaded().run();
     return 0;
 }   
