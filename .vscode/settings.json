@@ -84,6 +84,17 @@
     "xstring": "cpp",
     "xtr1common": "cpp",
     "xtree": "cpp",
-    "xutility": "cpp"
+    "xutility": "cpp",
+    "bitset": "cpp",
+    "execution": "cpp",
+    "filesystem": "cpp",
+    "memory_resource": "cpp",
+    "numeric": "cpp",
+    "queue": "cpp",
+    "ranges": "cpp",
+    "span": "cpp",
+    "stack": "cpp",
+    "valarray": "cpp",
+    "*.ipp": "cpp"
   }
 }

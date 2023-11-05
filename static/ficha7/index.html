@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>A minha Pagina</title>
+</head>
+<body>
+
+  <header>
+    <div class="mid-header">
+      <div class="mid-header-name">João Falcão</div>
+      <div class="mid-header-desc">homepage</div>
+      <div class="navbar-header">
+        <a href="localhost:42069/download">Quem sou</a> | <a href="#contactos">Contacte-me</a> | <a href="#links">Links</a>
+      </div>
+    </div>
+  </header>
+  
+
+  <main>
+    <section id="quemsou">
+      <div class="QuemSou-info">
+        <h1 class="section-title">Quem Sou</h1>
+        <p><b>Nome:</b> João Falcão</p>
+        <p><b>Idade:</b> 21</p>
+        <p><b>Atividade:</b> estudante</p>
+        <p><b>Onde vivo:</b> Aveiro</p>
+      </div>
+      <div class="QuemSou-img-container">
+        <img src="imagens/eu.png" alt="Minha foto">
+      </div>
+    </section>
+
+    <hr class="divisor">
+
+    <section id="contactos">
+      <h1 class="section-title">Contacte-me</h1>
+      <form>
+        <fieldset>
+          <legend>A sua mensagem </legend>
+          <div>
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" class="input-text" required>
+          </div>
+          <div style="margin: 20px 0;">
+            <label for="email">Email:</label>
+            <input id="email" type="text" class="input-text" pattern="/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/" required>
+          </div>
+          <div style="height: 100px;">
+            <label for="message">Menssagem:</label>
+            <textarea id="message" class="input-text" style="height: 90px; resize: none;" required></textarea>
+          </div>
+          <button type="submit" class="button-submit-form">Enviar</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <hr class="divisor">
+
+    <section id="links">
+      <h1 class="section-title">Os meus links favoritos:</h1>
+      <ul class="fav-link-list">
+        <li>Youtube</li>
+        <li>ESTGV</li>
+        <li>Google</li>
+        <li>Wikipedia</li>
+      </ul>
+    </section>
+  </main>
+
+
+
+  <footer>
+    <div class="middle-footer">
+      <a href="#quemsou">Quem sou</a> | <a href="#contactos">Contacte-me</a> | <a href="#links">Links</a>
+    </div>
+  </footer>
+
+</body>
+</html>

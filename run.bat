@@ -4,6 +4,6 @@ pushd  build
 
 make
 
-.\project_casino.exe
-
 popd
+
+.\project_casino.exe

@@ -6,6 +6,7 @@ enable_testing()
 
 set(CMAKE_CXX_STANDARD 11)
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "../")
 add_executable(project_casino src/main.cpp)
 
 target_compile_features(project_casino INTERFACE cxx_std_11)
@@ -27,6 +28,7 @@ find_package(Threads)
 find_package(ZLIB REQUIRED)
 find_package(OpenSSL REQUIRED)
 target_link_libraries(project_casino PRIVATE ZLIB::ZLIB OpenSSL::SSL OpenSSL::Crypto wsock32 ws2_32)
+
 
 target_include_directories(project_casino PUBLIC
                            "${PROJECT_BINARY_DIR}/includes")
